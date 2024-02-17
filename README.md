@@ -42,7 +42,7 @@ def binary_search(lst, item):
                 last = mid - 1
             else:
                 first = mid + 1
-
+    return None
 
 print(binary_search(lst, 69))
 ```
